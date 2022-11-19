@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.matches {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: fit-content;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: black;
+    margin: 1rem 0;
+    padding:2rem 6rem;
+    border-radius: 5px;
+}
+
+.match > * {
+    margin: 0 2px;
+}
+
+.match.selected {
+    /*border: 2px solid #95009c;*/
+    box-shadow: 0px 0px 10px 6px rgba(149,0,156,1);
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(149,0,156,1);
+    -moz-box-shadow: 0px 0px 10px 6px rgba(149,0,156,1);
+}

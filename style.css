@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 2 1;
+}
+
+.container > * {
+    margin: 5rem 0;
+}
+
+.container > *:first-child {
+    margin: 2rem 0;
+}
+
+.key-input {
+    padding: 10px 40px;
+    border: 2px solid black;
+}
+
