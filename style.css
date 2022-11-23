@@ -14,8 +14,25 @@
     margin: 2rem 0;
 }
 
+.input-wrapper {
+    text-align: center;
+    height: 8vh;
+}
+
 .key-input {
     padding: 10px 40px;
     border: 2px solid black;
+}
+
+#subButton {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 5%;
+    background-color: black;
+    border: 0;
+    cursor: pointer;
 }
 

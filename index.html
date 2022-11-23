@@ -14,14 +14,22 @@
       <div class="title">
         <h1>Enter your Key</h1>
       </div>
-      <input
-        class="key-input"
-        type="text"
-        id="userKey"
-        name="key"
-        placeholder="eg:xYerr325Killa"
-      />
-      <a href="games.html" class="button next">NEXT</a>
+      <div class="input-wrapper">
+        <form id="form"></form>
+        <input
+          class="key-input"
+          type="text"
+          id="userKey"
+          name="key"
+          placeholder="eg:xYerr325Killa"
+        />
+        <p id="error-msg"></p>
+      </div>
+      <div class="form-sub hp">
+        <!--<a href="games.html" class="button next">-->
+        <button id="subButton" type="button">Next</button
+        ><!--</a>-->
+      </div>
     </div>
 
     <script src="main.js"></script>
