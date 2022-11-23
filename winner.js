@@ -4,7 +4,10 @@ document.querySelector("#home").
 document.querySelector("#away").
     innerHTML = localStorage.getItem("selectedAwayTeam")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9c8dc37 (adding missing files)
 
 
 const teams = document.querySelectorAll('.team')
@@ -46,4 +49,7 @@ teams.forEach((team) => {
        
     }  
 })
+<<<<<<< HEAD
+>>>>>>> 9c8dc37 (adding missing files)
+=======
 >>>>>>> 9c8dc37 (adding missing files)
