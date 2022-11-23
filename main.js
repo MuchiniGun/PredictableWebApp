@@ -29,7 +29,7 @@ function checkUser() {
         if(userKey === user.key) {
             console.log(`Welcome ${user.username} !`)
             location.href = "/games.html";
-            errorMessage.innerHTML = ""
+            errorMessage.style.display = 'none'
         } 
     })
 
