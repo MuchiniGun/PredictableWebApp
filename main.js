@@ -48,9 +48,13 @@ function checkUser() {
             console.log(`Welcome ${user.username} !`)
             location.href = "/games.html";
 <<<<<<< HEAD
+<<<<<<< HEAD
             errorMessage.style.display = 'none'
 =======
 >>>>>>> cfd807d (temporary User check)
+=======
+            errorMessage.innerHTML = ""
+>>>>>>> 3ed123e (slight change again)
         } 
     })
 
