@@ -13,6 +13,7 @@ let users = [
     {username: 'Rhuli', key: '006Slayers'},
     {username: 'Khotso', key: '007Slider'},
     {username: 'Yadav', key: '008Yadav'},
+<<<<<<< HEAD
     {username: 'Wavy', key: '009Wavy'},
     {username: 'Ketsi', key: '010Ketsi'},
     {key: '010Virgil'}
@@ -28,6 +29,9 @@ let points = [
     {key: '007Slider', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
     {key: '008Yadav', matchday1: 8, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
     {key: '009Wavy', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0}
+=======
+    {username: 'Wavy', key: '009Wavy'}
+>>>>>>> cfd807d (temporary User check)
 ]
 
 
@@ -43,7 +47,10 @@ function checkUser() {
         if(userKey === user.key) {
             console.log(`Welcome ${user.username} !`)
             location.href = "/games.html";
+<<<<<<< HEAD
             errorMessage.style.display = 'none'
+=======
+>>>>>>> cfd807d (temporary User check)
         } 
     })
 
@@ -76,6 +83,7 @@ function checkUser() {
 
 
 subButton.addEventListener('click',checkUser, false)
+<<<<<<< HEAD
 
 
 function addPoints() {
@@ -99,3 +107,5 @@ function addPoints() {
     
     
 }
+=======
+>>>>>>> cfd807d (temporary User check)
