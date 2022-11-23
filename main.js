@@ -49,12 +49,16 @@ function checkUser() {
             location.href = "/games.html";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errorMessage.style.display = 'none'
 =======
 >>>>>>> cfd807d (temporary User check)
 =======
             errorMessage.innerHTML = ""
 >>>>>>> 3ed123e (slight change again)
+=======
+            errorMessage.style.display = 'none'
+>>>>>>> 004ce25 (sligh)
         } 
     })
 
