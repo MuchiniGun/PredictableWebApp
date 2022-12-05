@@ -13,7 +13,21 @@ let users = [
     {username: 'Rhuli', key: '006Slayers'},
     {username: 'Khotso', key: '007Slider'},
     {username: 'Yadav', key: '008Yadav'},
-    {username: 'Wavy', key: '009Wavy'}
+    {username: 'Wavy', key: '009Wavy'},
+    {username: 'Ketsi', key: '010Ketsi'},
+    {key: '010Virgil'}
+]
+
+let points = [
+    {key: '001Killa', matchday1: 4, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '002Chami', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '003Chini', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '004Mwiza', matchday1: 5, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '005Ches', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '006Slayers', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '007Slider', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '008Yadav', matchday1: 8, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0},
+    {key: '009Wavy', matchday1: 0, matchday2: 0, matchday3: 0, matchday4: 0, matchday5: 0}
 ]
 
 
@@ -62,3 +76,26 @@ function checkUser() {
 
 
 subButton.addEventListener('click',checkUser, false)
+
+
+function addPoints() {
+    let username = '';
+    let key= '';
+    let matchday1;
+    let pta; // points to add
+
+    users.forEach(user => {
+        username = user.username || 'Not Found';
+        key = user.key || 'Not Found';
+        console.log(`Username: ${username}`, `Key: ${key}`)
+    })
+    
+    points.forEach(point => {
+        matchday1 = point.matchday1;
+        console.log(`Key: ${point.key}`, `Matchday Point: ${matchday1}`)
+
+    })
+
+    
+    
+}
